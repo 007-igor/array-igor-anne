@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IW2A - Cadastro</title>
+
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cadastro de Usuários</h1>
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail">
+        </div>
+        <button id="bt">Cadastrar</button>
+
+        
+        <div id="aviso" class="aviso" style="display: none;"></div>
+    </div>
+
+    <div class="listagem">
+        <h2>Usuários Cadastrados</h2>
+        <ul id="listaUsuarios"></ul>
+    </div>
+
+    
+    <script src="js/array.js"></script>
+</body>
+</html>
